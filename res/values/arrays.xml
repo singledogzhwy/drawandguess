@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hints">
+        <item>triangle</item>
+        <item>apple</item>
+        <item>banana</item>
+        <item>bee</item>
+        <item>cat</item>
+        <item>river</item>
+        <item>mouse</item>
+        <item>dog</item>
+        <item>nail</item>
+        <item>fly</item>
+        <item>mountain</item>
+        <item>sun</item>
+        <item>moon</item>
+        <item>cake</item>
+        <item>hen</item>
+        <item>pencil</item>
+        <item>coffee</item>
+        <item>tea</item>
+        <item>ipad</item>
+        <item>iphone</item>
+        <item>ass</item>
+        <item>duang</item>
+        <item>monkey</item>
+        <item>elephant</item>
+    </string-array>
+</resources>

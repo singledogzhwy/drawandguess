@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.lilwulin.team.drawguess.LoginActivity"
+    android:id="@+id/rr"
+    android:rowCount="12"
+    android:columnCount="3"
+    android:clickable="false">
+
+    <Button
+        android:id="@+id/join_room_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="加入房间"
+        android:textColor="#000000"
+        android:background="@drawable/mybuttonstyle"
+        android:onClick="joinRoomClick"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/create_room_btn"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/create_room_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="创建房间"
+        android:background="@drawable/mybuttonstyle"
+        android:textColor="#000000"
+        android:onClick="createRoomClick"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/join_room_btn"
+        android:layout_alignStart="@+id/join_room_btn" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:adjustViewBounds="true"
+        android:src="@drawable/mainbackground1"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

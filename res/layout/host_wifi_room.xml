@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.lilwulin.team.drawguess.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="164dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/host_roomname_tv"
+            android:text="roomname"
+            android:textSize="25sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/host_ip_tv"
+        android:layout_marginTop="50dp"
+            android:text="ip"
+            android:textSize="20sp"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/host_start_game_btn"
+        android:text="开始游戏"
+        android:background="@drawable/mybuttonstyle"
+        android:textColor="#000000"
+        android:onClick="hostStartGameClick"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp" />
+
+
+</RelativeLayout>
